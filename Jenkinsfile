@@ -1,7 +1,7 @@
 pipeline {
 agent any
 environment {
-IMAGE_NAME = "bruno/jenkins-docker-nginx"
+IMAGE_NAME = "bsantospim/jenkins-docker-nginx"
 IMAGE_TAG = "latest"
 CONTAINER_NAME = " sena-nginx-app "
 }
