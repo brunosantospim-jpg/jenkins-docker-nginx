@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Run Container') {
       steps {
-        sh 'docker run --rm -d --name bruno-nginx-app -p 8081:80 jenkins-docker-nginx:latest' echo "Aceda a http://localhost:8081 para ver a página"
+        sh 'docker run --rm -d --name sena-nginx-app -p 8081:80 jenkins-docker-nginx:latest' echo "Aceda a http://localhost:8081 para ver a página"
       }
     }
   }
